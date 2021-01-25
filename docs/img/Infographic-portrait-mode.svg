@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="384.967" height="747" viewBox="0 0 384.967 747">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7a4eec" stop-opacity="0"/>
+      <stop offset="1" stop-color="#17abd8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="1" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2cb17a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#17abd8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" y1="0" y2="0" xlink:href="#linear-gradient-4"/>
+    <filter id="Rectangle" x="0" y="52" width="160" height="144" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-2" x="112.967" y="52" width="160" height="144" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-3" x="224.967" y="52" width="160" height="144" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-4" x="0" y="603" width="160" height="144" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-5" x="112.967" y="603" width="160" height="144" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-5"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-6" x="224.967" y="603" width="160" height="144" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-6"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Green_small" x="309.5" y="569.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-7"/>
+      <feFlood flood-color="#8fb6ae" flood-opacity="0.424"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Blue_big" x="104.5" y="448.5" width="49" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-8"/>
+      <feFlood flood-color="#8fb6ae" flood-opacity="0.424"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Aqua_small_blurred" x="38.5" y="514.5" width="71" height="71" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-9"/>
+      <feFlood flood-color="#8fb6ae" flood-opacity="0.424"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Purple_big" x="202.5" y="236.5" width="49" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-10"/>
+      <feFlood flood-color="#404a8f" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Purple_small" x="278.5" y="322.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-11"/>
+      <feFlood flood-color="#404a8f" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Purple_small-2" x="135.5" y="198.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-12"/>
+      <feFlood flood-color="#404a8f" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Blue_small_blurred" x="239.5" y="272.5" width="59" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-13"/>
+      <feFlood flood-color="#404a8f" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Blue_small" x="70.5" y="290.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-14"/>
+      <feFlood flood-color="#404a8f" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Aqua_small" x="237.5" y="460.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-15"/>
+      <feFlood flood-color="#8fb6ae" flood-opacity="0.424"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Aqua_small-2" x="149.5" y="548.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-16"/>
+      <feFlood flood-color="#8fb6ae" flood-opacity="0.424"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Cube" x="93.704" y="300.704" width="198.593" height="198.593" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-17"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Infographic-portrait-mode" transform="translate(355) rotate(90)">
+    <g id="Grey_Background_dots" data-name="Grey Background dots" transform="translate(0 65)">
+      <g id="Medium_grey_dots" data-name="Medium grey dots" transform="translate(696 182) rotate(180)">
+        <circle id="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(111.5 38.75)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-2" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(205 35.25)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-3" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(363.75 128)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-4" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(275 175)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-5" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(150 112)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-6" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(0.75 11)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-7" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(4 133.75)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-8" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(455.25 59.75)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-9" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(500.25 121.75)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-10" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(689.25 71.5)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-11" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(281.75 4)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-12" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(390.5 17.75)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-13" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(323.5 0.75)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-14" data-name="Oval" cx="3.375" cy="3.375" r="3.375" transform="translate(361.5 44.75)" fill="#687286" opacity="0.099"/>
+      </g>
+      <g id="Small_grey_dots" data-name="Small grey dots" transform="translate(130 194)">
+        <circle id="Oval-15" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(324 -167)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-16" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(201 -37)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-17" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(173.5 -67.5)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-18" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(221 -169.5)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-19" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(160 -136.5)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-20" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(86.5 -127.5)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-21" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(20.5 -71.5)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-22" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(0 -134)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-23" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(328.5 -69)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-24" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(341.5 -136)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-25" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(369.5 -159.5)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-26" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(271 -4.5)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-27" data-name="Oval" cx="2.25" cy="2.25" r="2.25" transform="translate(296 -19.5)" fill="#687286" opacity="0.099"/>
+      </g>
+      <g id="Big_grey_dots" data-name="Big grey dots" transform="translate(46 23)">
+        <circle id="Oval-28" data-name="Oval" cx="4.5" cy="4.5" r="4.5" transform="translate(395 131)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-29" data-name="Oval" cx="4.5" cy="4.5" r="4.5" transform="translate(259)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-30" data-name="Oval" cx="4.5" cy="4.5" r="4.5" transform="translate(398 21)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-31" data-name="Oval" cx="4.5" cy="4.5" r="4.5" transform="translate(287 157)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-32" data-name="Oval" cx="4.5" cy="4.5" r="4.5" transform="translate(139 109)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-33" data-name="Oval" cx="4.5" cy="4.5" r="4.5" transform="translate(0 17)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-34" data-name="Oval" cx="4.5" cy="4.5" r="4.5" transform="translate(22 138)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-35" data-name="Oval" cx="4.5" cy="4.5" r="4.5" transform="translate(546 34)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-36" data-name="Oval" cx="4.5" cy="4.5" r="4.5" transform="translate(606 122)" fill="#687286" opacity="0.099"/>
+        <circle id="Oval-37" data-name="Oval" cx="4.5" cy="4.5" r="4.5" transform="translate(682 55)" fill="#687286" opacity="0.099"/>
+      </g>
+    </g>
+    <rect id="Cube_bg" data-name="Cube bg" width="120" height="120" rx="22" transform="translate(304.701 162.554) rotate(-45)" fill="#687286" opacity="0.096"/>
+    <g id="Lines-m" transform="translate(136.141 44.533)">
+      <path id="top" d="M47.27,0a92,92,0,0,1,81.576,49.464l.475.924,12.118,23.894A65.217,65.217,0,0,0,198.867,110l.736,0v16a81.217,81.217,0,0,1-72.015-43.666l-.419-.816L115.052,57.625A76,76,0,0,0,48.128,16l-.858,0H.6V0Z" fill="url(#linear-gradient)"/>
+      <path id="bottom" d="M47.27-110a92,92,0,0,0,81.576-49.464l.475-.924,12.118-23.894A65.217,65.217,0,0,1,198.867-220l.736,0v-16a81.217,81.217,0,0,0-72.015,43.666l-.419.816-12.118,23.894A76,76,0,0,1,48.128-126l-.858,0H.6v16Z" transform="translate(0 346)" fill="url(#linear-gradient)"/>
+      <path id="middle" d="M.04,109.5l199.583.5-.04,16L0,125.5Z" fill="url(#linear-gradient)"/>
+      <path id="top-2" data-name="top" d="M353.27,110a92,92,0,0,1,81.576,49.464l.475.924,12.118,23.894A65.217,65.217,0,0,0,504.867,220l.736,0v16a81.217,81.217,0,0,1-72.015-43.666l-.419-.816-12.118-23.894A76,76,0,0,0,354.128,126l-.858,0H306.6V110Z" transform="translate(812.207 346) rotate(180)" fill="url(#linear-gradient-4)"/>
+      <path id="bottom-2" data-name="bottom" d="M353.27,0a92,92,0,0,0,81.576-49.464l.475-.924,12.118-23.894A65.217,65.217,0,0,1,504.867-110l.736,0v-16a81.217,81.217,0,0,0-72.015,43.666l-.419.816L421.052-57.625A76,76,0,0,1,354.128-16l-.858,0H306.6V0Z" transform="translate(812.207) rotate(180)" fill="url(#linear-gradient-5)"/>
+      <path id="middle-2" data-name="middle" d="M306.623,110l199.583.5-.04,16L306.583,126Z" transform="translate(812.79 236.5) rotate(180)" fill="url(#linear-gradient-4)"/>
+    </g>
+    <g id="Input" transform="translate(72)">
+      <g id="Input_label" data-name="Input label" transform="translate(0 325) rotate(-90)">
+        <g transform="matrix(1, 0, 0, 1, -30, -72)" filter="url(#Rectangle)">
+          <rect id="Rectangle-7" data-name="Rectangle" width="100" height="84" rx="8" transform="translate(30 72)" fill="#fff"/>
+        </g>
+        <text id="Web_Sources" data-name="Web Sources" transform="translate(50 45)" fill="#15264c" font-size="10" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-10.696" y="11">Web</tspan><tspan x="-18.159" y="23.2">Sources</tspan></text>
+        <g id="Globe" transform="translate(38 18)">
+          <path id="Path" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Shape" d="M9.99,20A10,10,0,1,1,20,10,10.006,10.006,0,0,1,9.99,20Zm-1.9-6h0A14.1,14.1,0,0,0,10,17.959,14.039,14.039,0,0,0,11.91,14H8.09ZM3.081,14a7.992,7.992,0,0,0,4.33,3.561A15.629,15.629,0,0,1,6.03,14Zm10.89,0a15.668,15.668,0,0,1-1.38,3.561A8.026,8.026,0,0,0,16.92,14H13.97Zm.39-6a16.932,16.932,0,0,1,.14,2,16.924,16.924,0,0,1-.14,2h3.38A8.183,8.183,0,0,0,18,10a8.291,8.291,0,0,0-.26-2ZM7.66,8h0A14.261,14.261,0,0,0,7.5,10a14.7,14.7,0,0,0,.161,2H12.34a14.614,14.614,0,0,0,.16-2,14.232,14.232,0,0,0-.16-2ZM2.26,8h0A8.291,8.291,0,0,0,2,10a8.183,8.183,0,0,0,.26,2H5.64a16.782,16.782,0,0,1-.14-2,16.924,16.924,0,0,1,.14-2H2.26Zm10.33-5.56h0A15.673,15.673,0,0,1,13.97,6H16.92a8.025,8.025,0,0,0-4.33-3.561Zm-5.18,0A7.992,7.992,0,0,0,3.081,6H6.03A15.63,15.63,0,0,1,7.41,2.439h0ZM10,2.041A14.09,14.09,0,0,0,8.09,6h3.82A14.035,14.035,0,0,0,10,2.041Z" transform="translate(2 2)" fill="#7a4eec"/>
+        </g>
+      </g>
+      <g id="Input_label-2" data-name="Input label" transform="translate(0 212.033) rotate(-90)">
+        <g transform="matrix(1, 0, 0, 1, -142.97, -72)" filter="url(#Rectangle-2)">
+          <rect id="Rectangle-8" data-name="Rectangle" width="100" height="84" rx="8" transform="translate(142.97 72)" fill="#fff"/>
+        </g>
+        <text id="Faculty_directories" data-name="Faculty directories" transform="translate(50 45)" fill="#15264c" font-size="10" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-16.624" y="11">Faculty </tspan><tspan x="-24.91" y="23.2">directories</tspan></text>
+        <g id="Faculty" transform="translate(38 18)">
+          <path id="Path-2" data-name="Path" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Faculty-2" data-name="Faculty" d="M8.948,17.2l-5-2.73a2.012,2.012,0,0,1-1.039-1.76V9.9l6.04,3.3a1.988,1.988,0,0,0,1.92,0l6.04-3.3v2.81a2.012,2.012,0,0,1-1.039,1.76l-5,2.73a1.983,1.983,0,0,1-1.92,0Zm9.959-4.48V6.81L10.868,11.2a1.983,1.983,0,0,1-1.92,0L.517,6.6a1.006,1.006,0,0,1,0-1.76L8.948.24a2.037,2.037,0,0,1,1.92,0l9.52,5.189a1.007,1.007,0,0,1,.52.88v6.41a1,1,0,0,1-2,0Z" transform="translate(1 3)" fill="#7a4eec"/>
+        </g>
+      </g>
+      <g id="Input_label-3" data-name="Input label" transform="translate(0 100.033) rotate(-90)">
+        <g transform="matrix(1, 0, 0, 1, -254.97, -72)" filter="url(#Rectangle-3)">
+          <rect id="Rectangle-9" data-name="Rectangle" width="100" height="84" rx="8" transform="translate(254.97 72)" fill="#fff"/>
+        </g>
+        <text id="Funding_opportunitie" data-name="Funding opportunitie" transform="translate(50 45)" fill="#15264c" font-size="10" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-19.287" y="11">Funding </tspan><tspan x="-32.136" y="23.2">opportunities</tspan></text>
+        <path id="Path-3" data-name="Path" d="M0,0H24V24H0Z" transform="translate(38 18)" fill="none"/>
+        <path id="Funding" d="M10,20A10,10,0,1,1,20,10,10.011,10.011,0,0,1,10,20Zm-3.11-7.33a.748.748,0,0,0-.616.339.892.892,0,0,0-.1.821,3.6,3.6,0,0,0,2.706,2.24v.6a1.27,1.27,0,0,0,1.2,1.33h.009a1.269,1.269,0,0,0,1.195-1.33v-.58a3.175,3.175,0,0,0,2.814-3.16c0-2.5-1.9-3.378-3.757-3.91-1.728-.495-2.4-1.03-2.4-1.91,0-1,.847-1.64,2.158-1.64A1.727,1.727,0,0,1,12,6.72a.749.749,0,0,0,.692.621h.234a.748.748,0,0,0,.605-.321.9.9,0,0,0,.124-.809,3.339,3.339,0,0,0-2.365-2.26V3.33A1.269,1.269,0,0,0,10.09,2h-.009a1.27,1.27,0,0,0-1.2,1.33v.6a3.341,3.341,0,0,0-2.8,3.21c0,1.814,1.194,2.98,3.757,3.67,2.114.559,2.4,1.4,2.4,2.14,0,.769-.567,1.589-2.157,1.589a2.119,2.119,0,0,1-2.256-1.27.811.811,0,0,0-.728-.6Z" transform="translate(40 20)" fill="#7a4eec"/>
+      </g>
+      <g id="Arrows_left" data-name="Arrows left" transform="translate(231 159)">
+        <path id="Path-4" data-name="Path" d="M0,0,3,3,6,0" transform="translate(-0.5 5.5) rotate(-90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.25" opacity="0.499"/>
+        <path id="Path-5" data-name="Path" d="M0,0,3,3,6,0" transform="translate(4.5 5.5) rotate(-90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.25" opacity="0.751"/>
+        <path id="Path-6" data-name="Path" d="M0,0,3,3,6,0" transform="translate(9.5 5.5) rotate(-90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.25"/>
+      </g>
+    </g>
+    <g id="Output" transform="translate(443)">
+      <g id="Input_label-4" data-name="Input label" transform="translate(180 325) rotate(-90)">
+        <g transform="matrix(1, 0, 0, 1, -30, -623)" filter="url(#Rectangle-4)">
+          <rect id="Rectangle-10" data-name="Rectangle" width="100" height="84" rx="8" transform="translate(30 623)" fill="#fff"/>
+        </g>
+        <text id="Reccomended_matches" data-name="Reccomended matches" transform="translate(50 45)" fill="#15264c" font-size="10" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-32.908" y="11">Reccomended </tspan><tspan x="-19.512" y="23.2">matches</tspan></text>
+        <g id="Icon_Globe" data-name="Icon/Globe" transform="translate(38 18)">
+          <g id="Matches">
+            <path id="Path-7" data-name="Path" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Matches-2" data-name="Matches" d="M7.01,12.082v-1.79H1a1,1,0,1,1,0-2H7.01v-1.8a.5.5,0,0,1,.85-.35l2.78,2.79a.514.514,0,0,1,0,.71l-2.78,2.79a.483.483,0,0,1-.351.151A.5.5,0,0,1,7.01,12.082Zm5.13-5.64L9.36,3.651a.514.514,0,0,1,0-.71L12.14.151a.5.5,0,0,1,.85.35v1.79H19a1,1,0,0,1,0,2H12.99v1.79a.5.5,0,0,1-.5.5A.482.482,0,0,1,12.14,6.441Z" transform="translate(2 6)" fill="#2cb17a"/>
+          </g>
+        </g>
+      </g>
+      <g id="Input_label-5" data-name="Input label" transform="translate(180 212.033) rotate(-90)">
+        <g transform="matrix(1, 0, 0, 1, -142.97, -623)" filter="url(#Rectangle-5)">
+          <rect id="Rectangle-11" data-name="Rectangle" width="100" height="84" rx="8" transform="translate(142.97 623)" fill="#fff"/>
+        </g>
+        <text id="Rapid_communication" data-name="Rapid communication" transform="translate(50 45)" fill="#15264c" font-size="10" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-13.572" y="11">Rapid </tspan><tspan x="-36.626" y="23.2">communication</tspan></text>
+        <g id="Share" transform="translate(38 18)">
+          <path id="Path-8" data-name="Path" d="M0,0H24V24H0Z" fill="none"/>
+        </g>
+        <g id="Chat" transform="translate(38 18)">
+          <path id="Path-9" data-name="Path" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Shape-2" data-name="Shape" d="M0,20v0L.01,2A2,2,0,0,1,2,0H18a2,2,0,0,1,2,2V14a2,2,0,0,1-2,2H4L0,20ZM5,10a1,1,0,1,0,0,2h6a1,1,0,1,0,0-2ZM5,7A1,1,0,1,0,5,9H15a1,1,0,1,0,0-2ZM5,4A1,1,0,1,0,5,6H15a1,1,0,1,0,0-2Z" transform="translate(2 2)" fill="#2cb17a"/>
+        </g>
+      </g>
+      <g id="Input_label-6" data-name="Input label" transform="translate(180 100.033) rotate(-90)">
+        <g transform="matrix(1, 0, 0, 1, -254.97, -623)" filter="url(#Rectangle-6)">
+          <rect id="Rectangle-12" data-name="Rectangle" width="100" height="84" rx="8" transform="translate(254.97 623)" fill="#fff"/>
+        </g>
+        <text id="Collaborative_opport" data-name="Collaborative opport" transform="translate(50 45)" fill="#15264c" font-size="10" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-31.279" y="11">Collaborative </tspan><tspan x="-32.136" y="23.2">opportunities</tspan></text>
+        <g id="Icon_Globe-2" data-name="Icon/Globe" transform="translate(38 18)">
+          <g id="Collaborate">
+            <path id="Path-10" data-name="Path" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Collaborate-2" data-name="Collaborate" d="M19.614,12V10.39A4.589,4.589,0,0,0,19,8.1a6.473,6.473,0,0,1,3.811.48A2.014,2.014,0,0,1,24,10.43V11a.991.991,0,0,1-.975,1ZM7,12a.98.98,0,0,1-1-.952v-.581a2.818,2.818,0,0,1,1.76-2.6A10.87,10.87,0,0,1,12,7a11.057,11.057,0,0,1,4.24.857,2.839,2.839,0,0,1,1.76,2.6v.59A.98.98,0,0,1,17,12ZM.975,12A.99.99,0,0,1,0,11v-.57A2.014,2.014,0,0,1,1.189,8.58,6.633,6.633,0,0,1,3.9,8,6.615,6.615,0,0,1,5,8.1a4.581,4.581,0,0,0-.615,2.29V12ZM18,5a2,2,0,1,1,2,2A2.006,2.006,0,0,1,18,5ZM2,5A2,2,0,1,1,4,7,2.006,2.006,0,0,1,2,5ZM9,3a3,3,0,1,1,3,3A3,3,0,0,1,9,3Z" transform="translate(0 6)" fill="#2cb17a"/>
+          </g>
+        </g>
+      </g>
+      <g id="Arrows_right" data-name="Arrows right" transform="translate(20 159)">
+        <path id="Path-11" data-name="Path" d="M0,0,3,3,6,0" transform="translate(-0.5 5.5) rotate(-90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.25"/>
+        <path id="Path-12" data-name="Path" d="M0,0,3,3,6,0" transform="translate(4.5 5.5) rotate(-90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.25" opacity="0.751"/>
+        <path id="Path-13" data-name="Path" d="M0,0,3,3,6,0" transform="translate(9.5 5.5) rotate(-90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.25" opacity="0.497"/>
+      </g>
+    </g>
+    <g id="Foreground_dots" data-name="Foreground dots" transform="translate(212 23)">
+      <g transform="matrix(0, -1, 1, 0, -212, 332)" filter="url(#Green_small)">
+        <circle id="Green_small-2" data-name="Green small" cx="4" cy="4" r="4" transform="translate(332 575) rotate(90)" fill="#6eafa9"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -212, 332)" filter="url(#Blue_big)">
+        <circle id="Blue_big-2" data-name="Blue big" cx="5" cy="5" r="5" transform="translate(129 454) rotate(90)" fill="#1babca"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -212, 332)" filter="url(#Aqua_small_blurred)">
+        <circle id="Aqua_small_blurred-2" data-name="Aqua small blurred" cx="4" cy="4" r="4" transform="translate(73 532) rotate(90)" fill="#1babca"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -212, 332)" filter="url(#Purple_big)">
+        <circle id="Purple_big-2" data-name="Purple big" cx="5" cy="5" r="5" transform="translate(227 242) rotate(90)" fill="#727ed0"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -212, 332)" filter="url(#Purple_small)">
+        <circle id="Purple_small-3" data-name="Purple small" cx="4" cy="4" r="4" transform="translate(301 328) rotate(90)" fill="#727ed0"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -212, 332)" filter="url(#Purple_small-2)">
+        <circle id="Purple_small-4" data-name="Purple small" cx="4" cy="4" r="4" transform="translate(160 212) rotate(90)" fill="#aaacd9"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -212, 332)" filter="url(#Blue_small_blurred)">
+        <circle id="Blue_small_blurred-2" data-name="Blue small blurred" cx="4" cy="4" r="4" transform="translate(268 284) rotate(90)" fill="#5bace4"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -212, 332)" filter="url(#Blue_small)">
+        <circle id="Blue_small-2" data-name="Blue small" cx="4" cy="4" r="4" transform="translate(96 299) rotate(90)" fill="#61ace3"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -212, 332)" filter="url(#Aqua_small)">
+        <circle id="Aqua_small-3" data-name="Aqua small" cx="4" cy="4" r="4" transform="translate(260 466) rotate(90)" fill="#1aacc9"/>
+      </g>
+      <g transform="matrix(0, -1, 1, 0, -212, 332)" filter="url(#Aqua_small-2)">
+        <circle id="Aqua_small-4" data-name="Aqua small" cx="4" cy="4" r="4" transform="translate(172 554) rotate(90)" fill="#7fced0"/>
+      </g>
+    </g>
+    <g id="Scry" transform="translate(320 92)">
+      <g transform="matrix(0, -1, 1, 0, -320, 263)" filter="url(#Cube)">
+        <rect id="Cube-2" data-name="Cube" width="98" height="98" rx="15" transform="translate(193 320.7) rotate(45)" fill="#fff"/>
+      </g>
+      <g id="Scry_logo" data-name="Scry logo" transform="translate(46 90) rotate(-90)">
+        <path id="Combined_Shape" data-name="Combined Shape" d="M6.757,13.177,29,13.229,15.445,25ZM3.166,16.733l2.357-2.964,4.72,6.424L7.163,21.2ZM0,13.162l4.27.009-2,2.524ZM2.265,9.308l2,2.522L0,11.84ZM15.445,0,29,11.771l-22.243.052ZM3.166,8.267l4-4.468,3.081,1.01-4.72,6.424Z" transform="translate(7.69)" fill="#5ac6e7"/>
+        <path id="SCRY-2" data-name="SCRY" d="M13.576,16.175a3.294,3.294,0,0,1-1.035-2.6V3.519a3.338,3.338,0,0,1,1.011-2.6A4.379,4.379,0,0,1,16.582,0a4.478,4.478,0,0,1,3.055.917,3.3,3.3,0,0,1,1.035,2.6V5.907H18.947V3.519q0-2.01-2.34-2.011T14.266,3.519V13.574q0,2.01,2.341,2.011t2.34-2.011V12.191h1.724v1.382a3.334,3.334,0,0,1-1.01,2.6,4.379,4.379,0,0,1-3.03.918A4.473,4.473,0,0,1,13.576,16.175ZM0,13.574V11.437H1.732v2.236a1.714,1.714,0,0,0,.618,1.408,2.853,2.853,0,0,0,1.831.5,2.853,2.853,0,0,0,1.831-.5,1.673,1.673,0,0,0,.618-1.371,4.179,4.179,0,0,0-.185-1.382,3.167,3.167,0,0,0-.754-1.094L1.336,6.913A4.584,4.584,0,0,1,.284,5.392,5.274,5.274,0,0,1,0,3.519,3.308,3.308,0,0,1,1.027.917,4.542,4.542,0,0,1,4.131,0Q8.114,0,8.114,3.519V5.656H6.382V3.418A1.764,1.764,0,0,0,5.8,2.011a2.609,2.609,0,0,0-1.744-.5,2.608,2.608,0,0,0-1.744.5,1.732,1.732,0,0,0-.581,1.382A4.411,4.411,0,0,0,1.9,4.776a2.76,2.76,0,0,0,.768,1.056L7.1,10.155A4.967,4.967,0,0,1,8.089,11.7a5.49,5.49,0,0,1,.272,1.873q0,3.519-4.181,3.519T0,13.574ZM26.827,16.86H25.084V.468h3.761A4.215,4.215,0,0,1,31.8,1.4,3.374,3.374,0,0,1,32.806,4V7.529a3.084,3.084,0,0,1-2.192,3.278l3.063,6.051-1.917,0-2.914-5.8H26.828v5.8h0Zm.115-7.494h1.991c1.453,0,2.189-.672,2.189-2v-3.5A1.92,1.92,0,0,0,30.558,2.4a2.319,2.319,0,0,0-1.625-.524H26.942Zm12.48,7.493V10.984L35.3.468h1.848L40.3,8.915,43.443.468h1.848l-4.12,10.541v5.85Z" transform="translate(0 30.268)" fill="#15264c"/>
+      </g>
+    </g>
+  </g>
+</svg>

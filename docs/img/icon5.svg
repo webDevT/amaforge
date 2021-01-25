@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140" viewBox="0 0 140 140">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="140" height="140" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.004" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#17abd8"/>
+      <stop offset="1" stop-color="#2cb17a"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon" transform="translate(30 20)">
+    <g transform="matrix(1, 0, 0, 1, -30, -20)" filter="url(#Oval)">
+      <circle id="Oval-2" data-name="Oval" cx="40" cy="40" r="40" transform="translate(30 20)" fill="#fff"/>
+    </g>
+    <path id="Intelligent_matching" data-name="Intelligent matching" d="M13.781,23H0V20.125c0-1.178.8-2.882,4.593-4.308a24.036,24.036,0,0,1,7.66-1.442,15.109,15.109,0,0,1,1.531.086L12.5,15.64a4.125,4.125,0,0,0-.031,6.124L13.782,23l0,0Zm3.594-1.409-2.919-2.917a1.373,1.373,0,0,1,0-1.94l.014-.014a1.4,1.4,0,0,1,1.974,0l1.932,1.912,6.247-6.224a1.414,1.414,0,0,1,1.988,0l.014.014a1.371,1.371,0,0,1,0,1.94l-7.248,7.23a1.432,1.432,0,0,1-2,0ZM6.126,5.75A5.954,5.954,0,0,1,12.253,0a5.953,5.953,0,0,1,6.125,5.75,5.953,5.953,0,0,1-6.125,5.75A5.954,5.954,0,0,1,6.126,5.75Z" transform="translate(26.314 28)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

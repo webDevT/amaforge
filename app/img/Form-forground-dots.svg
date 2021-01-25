@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="612.116" height="582" viewBox="0 0 612.116 582">
+  <defs>
+    <filter id="Blue_big" x="0" y="247" width="49" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-color="#1f2d4c"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Aqua_small_blurred" x="541.116" y="415" width="71" height="71" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-2"/>
+      <feFlood flood-color="#8fb6ae" flood-opacity="0.424"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Purple_big" x="362.076" y="0" width="49" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-3"/>
+      <feFlood flood-color="#404a8f" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Purple_small" x="180.038" y="535" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-4"/>
+      <feFlood flood-color="#05081a" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Form-forground-dots" transform="translate(14.5 5.5)">
+    <g transform="matrix(1, 0, 0, 1, -14.5, -5.5)" filter="url(#Blue_big)">
+      <circle id="Blue_big-2" data-name="Blue big" cx="5" cy="5" r="5" transform="translate(14.5 252.5)" fill="#1babca"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -14.5, -5.5)" filter="url(#Aqua_small_blurred)">
+      <circle id="Aqua_small_blurred-2" data-name="Aqua small blurred" cx="4" cy="4" r="4" transform="translate(567.62 432.5)" fill="#1babca"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -14.5, -5.5)" filter="url(#Purple_big)">
+      <circle id="Purple_big-2" data-name="Purple big" cx="5" cy="5" r="5" transform="translate(376.58 5.5)" fill="#727ed0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -14.5, -5.5)" filter="url(#Purple_small)">
+      <circle id="Purple_small-2" data-name="Purple small" cx="4" cy="4" r="4" transform="translate(196.54 548.5)" fill="#aaacd9" opacity="0.543"/>
+    </g>
+  </g>
+</svg>

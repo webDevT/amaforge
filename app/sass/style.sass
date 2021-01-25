@@ -1,0 +1,534 @@
+@import "vars"
+@import "fonts"
+
+//start global style
+body 
+	font-family: $inter 
+	font-weight: 400
+	font-size: 18px
+	color: #687286
+.container-fluid 
+	width: 1170px 
+	max-width: 96vw
+ul 
+	list-style: none 
+	padding-left: 0 
+	margin-bottom: 0
+h1
+	font-size: 40px 
+	font-weight: 700 
+	color: #fff 
+	line-height: 48px
+	margin-bottom: 21px
+h2 
+	font-size: 40px 
+	font-weight: 700 
+	color: $title-color 
+	line-height: 48px
+	margin-bottom: 21px
+h3 
+	font-size: 18px 
+	font-weight: 700
+	color: $title-color
+a,
+a:hover
+	text-decoration: none
+.button 
+	background: $blue 
+	width: 209px 
+	height: 55.4px
+	border-radius: 4px
+	transition: all .5s
+	box-shadow: 0px 11px 15px rgba(#15264C, 0.3)
+	a 
+		width: 100% 
+		height: 100% 
+		display: flex 
+		justify-content: center 
+		align-items: center
+		font-weight: 700
+.button:hover 
+	background: $green
+.sub-title 
+	color: $blue
+	font-size: 14px
+	text-transform: uppercase
+.section-header
+	text-align: center
+//end global style 
+
+//start header style
+.header 
+	padding-top: 31px
+	padding-bottom: 31px 
+	position: fixed 
+	top: 0 
+	left: 0
+	width: 100%
+	z-index: 999
+	transition: all 0.5s
+	.container-fluid 
+		display: flex 
+		justify-content: space-between 
+		align-items: center
+.logo-text
+	fill: #fff
+	transition: all 0.5s
+.header.sticky 
+	background: #fff
+	box-shadow: 0px 10px 20px rgba(#15264C, 0.08%)
+	ul 
+		a 
+			color: #687286
+		a:hover 
+			color: $title-color
+		li:last-child 
+			a 
+				color: #fff
+		li:last-child:hover 
+			color: #fff
+	.logo-text
+		fill: $title-color
+.menu 
+	ul
+		display: flex
+		align-items: center 
+		li 
+			margin-left: 32px
+		li:last-child 
+			margin-left: 42px
+
+//end header style
+
+//start main screen
+.main-screen
+	height: 982px 
+	min-height: 60vw
+	background: url('../img/main-screen-bg.svg')
+	background-size: cover
+	background-repeat: no-repeat
+	color: #fff 
+	.sub-title 
+		margin-bottom: 17px
+	a 
+		color: #fff
+	h2 
+		color: #fff
+.main-screen__content
+	padding-top: 175px
+	display: flex 
+	justify-content: space-between 
+	align-items: center
+.main-screen__img
+	img 
+		width: 40.610vw
+		transform: translateX(4.5%)
+.main-screen__text-content
+	max-width: 435px
+	.button 
+		margin-top: 24px
+.main-screen__img--mob
+	display: none
+//end main screen
+
+
+//start box-section style
+.box-section
+	padding-top: 30px
+	padding-bottom: 80px
+	.container-fluid
+		display: flex 
+		align-items: center
+.box-content
+	padding-left: 40px
+//end box-section style
+
+//start how it work section 
+.how-it-work
+	padding-bottom: 120px
+	.container-fluid 
+		background: #F7F9FB
+		border-radius: 8px
+		padding: 64px 70px
+		h2 
+			margin-bottom: 40px
+		svg 
+			width: 110%
+			margin-bottom: 80px
+			transform: translateX(-5%)
+.how-it-work__items
+	font-size: 14px
+	.col-lg-4:nth-child(2)
+		position: relative
+		display: flex 
+		justify-content: center
+	.col-lg-4:nth-child(3)
+		display: flex 
+		justify-content: flex-end
+	.col-lg-4:nth-child(2):before
+		content: ''
+		width: 1px
+		height: 100%
+		background: linear-gradient(321deg, rgba(0,0,0,0.0) 0%, rgba(112,112,112, 0.5) 50%, rgba(0,0,0,0.0) 100%)
+		position: absolute
+		top: 0 
+		left: 0
+	.col-lg-4:nth-child(2):after
+		content: ''
+		width: 1px
+		height: 100%
+		background: linear-gradient(321deg, rgba(0,0,0,0.0) 0%, rgba(112,112,112, 0.5) 50%, rgba(0,0,0,0.0) 100%)
+		position: absolute
+		top: 0 
+		right: 0
+
+.how-it-work__item
+	max-width: 250px
+.mobile-chart
+	display: none
+//end how it work section
+
+.more-proposual
+	padding-bottom: 100px
+	.col-lg-6
+		display: flex 
+		justify-content: center
+		flex-direction: column
+.more-proposual__list
+	li 
+		margin-bottom: 4px
+	
+	img 
+		margin-right: 10px
+.more-proposual__img-wrapper
+	position: relative 
+	img 
+		max-width: 100%
+	svg 
+		position: absolute
+		left: -8% 
+		top: 38%
+
+//start features style
+.features
+	//padding-top: 200px
+	height: 1240px
+	min-height: 75vw
+	background: url('../img/features-bg.svg')
+	background-repeat: no-repeat 
+	background-size: cover
+	text-align: center
+	color: #fff 
+	display: flex 
+	align-items: center
+	h2 
+		color: #fff
+	h3 
+		color: #fff
+	.section-header
+		margin-bottom: 100px
+	p 
+		font-size: 16px
+		max-width: 300px 
+		margin: 0 auto
+		color: rgba(#fff, 0.7)
+	.col-lg-4:nth-child(1),
+	.col-lg-4:nth-child(2),
+	.col-lg-4:nth-child(3)
+		padding-bottom: 60px
+		border-bottom: 1px solid #2B487B
+	.col-lg-4:nth-child(2)
+		border-left: 1px solid #2B487B
+		border-right: 1px solid #2B487B
+	.col-lg-4:nth-child(4),
+	.col-lg-4:nth-child(5),
+	.col-lg-4:nth-child(6)
+		padding-top: 60px
+	.col-lg-4:nth-child(5)
+		border-left: 1px solid #2B487B
+		border-right: 1px solid #2B487B
+//end features style
+
+//start discover
+.discover
+	padding-top: 150px
+	p 
+		margin-bottom: 40px
+	.section-header
+		max-width: 570px 
+		margin: 0 auto
+		p 
+			margin-bottom: 0
+	.col-lg-6 
+		margin-top: 80px
+		display: flex 
+		flex-direction: column 
+		justify-content: center
+	.discover-img 
+		width: 100%
+	.sub-title 
+		margin-bottom: 5px
+.dascover__item-title
+	font-size: 24px 
+	font-weight: 700
+	color: $title-color
+	margin-bottom: 20px
+//end discover 
+
+//start slick style
+.slick-slider
+	position: relative
+	display: block
+	box-sizing: border-box
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+	-webkit-touch-callout: none
+	-khtml-user-select: none
+	-ms-touch-action: pan-y
+	touch-action: pan-y
+	-webkit-tap-highlight-color: transparent
+.slick-list
+	position: relative
+	display: block
+	overflow: hidden
+	margin: 0
+	padding: 0
+.slick-list:focus
+	outline: none
+.slick-list.dragging
+	cursor: pointer
+	cursor: hand
+.slick-slider .slick-track,
+.slick-slider .slick-list
+	-webkit-transform: translate3d(0, 0, 0)
+	-moz-transform: translate3d(0, 0, 0)
+	-ms-transform: translate3d(0, 0, 0)
+	-o-transform: translate3d(0, 0, 0)
+	transform: translate3d(0, 0, 0)
+.slick-track
+	position: relative
+	top: 0
+	left: 0
+	display: block
+	margin-left: auto
+	margin-right: auto
+.slick-track:before,
+.slick-track:after
+	display: table
+	content: ''
+.slick-track:after
+	clear: both
+.slick-loading .slick-track
+	visibility: hidden
+.slick-slide
+	display: none
+	float: left
+	height: 100%
+	min-height: 1px
+[dir='rtl'] .slick-slide
+	float: right
+.slick-slide img
+	display: block
+.slick-slide.slick-loading img
+	display: none
+.slick-slide.dragging img
+	pointer-events: none
+.slick-initialized .slick-slide
+	display: block
+.slick-loading .slick-slide
+	visibility: hidden
+.slick-vertical .slick-slide
+	display: block
+	height: auto
+	border: 1px solid transparent
+.slick-arrow.slick-hidden
+	display: none
+//end slick style
+//start slider section
+.slider-section
+	padding-top: 120px
+	padding-bottom: 0px
+	h2 
+		margin-bottom: 50px
+
+
+.slider__item-content
+	font-size: 14px
+	background: #F7F9FB
+	border-radius: 5px
+	margin: 25px 15px
+	padding: 45px 40px 30px 40px
+	height: 100%
+	position: relative
+	p 
+		margin-bottom: 0
+.slider__item-content:before 
+	content: url('../img/quote.svg')
+	position: absolute
+	left: 40px
+	top: 0
+	transform: translateY(-40%)
+.slider__item-content .slider-item__text
+	min-height: 175px	
+	margin-bottom: 10px
+.user-photo
+	margin-bottom: 10px
+.user-name
+	font-size: 16px 
+	font-weight: 700
+	color: $title-color
+	margin-bottom: 5px
+.slick-dots
+	display: flex
+	justify-content: center
+	font-size: 0
+	padding-top: 13px
+	button 
+		border: none
+		background: transparent
+		width: 8px 
+		height: 8px
+		border-radius: 50%
+		padding: 0
+		margin: 4px
+		background: rgba(#687286, 0.2)
+		outline: none
+		cursor: pointer
+	.slick-active
+		button 
+			background: #687286
+//end slider section
+
+//start our clients section style
+.our-clients
+	padding-bottom: 80px
+	padding-top: 70px
+
+	.sub-title 
+.clients-slider__item-content
+	height: 107px
+	box-shadow: 0 10px 20px rgba(#15264C, 0.08)
+	margin: 40px 15px
+	display: flex 
+	justify-content: center 
+	align-items: center
+	border-radius: 8px
+	img 
+		max-width: 90%
+.container-fluid--slider
+	position: relative
+
+.prev,
+.next 
+	cursor: pointer
+	position: absolute
+	top: 50%
+	z-index: 999
+.circle
+	opacity: 0.205
+	transition: all .5s
+.prev
+	left: 0
+	transform: translateX(-110%) translateY(-100%)
+.next
+	right: 0
+	transform: translateX(110%) translateY(-100%)
+.prev:hover,
+.next:hover
+	.circle
+		opacity: 1
+//end our clients section style
+
+//start footer style
+.footer 
+	background: url('../img/footer-bg.svg')
+	min-height: 700px
+	background-size: cover
+	background-repeat: no-repeat
+	color: #fff
+
+	.container-fluid 
+		display: flex 
+		justify-content: space-between
+	a,
+	span 
+		color: #fff
+		font-size: 16px
+	h3 
+		color: #fff
+.footer__contact
+	display: flex
+	padding-top: 160px
+.footer__col
+	width: 295px
+.footer__contact-item
+	margin-top: 35px
+.sub-title
+	margin-bottom: 10px
+.footer__bottom
+	margin-top: 83px
+	.footer__bottom-wrapper
+		padding-top: 32px
+		border-top: 1px solid #2B487B
+		width: 100% 
+		display: flex 
+		justify-content: space-between 
+		align-items: center
+.footer__copy
+	font-size: 16px
+.footer__contact-form
+	width: 470px
+	max-width: 100%
+	min-height: 477px
+	background: linear-gradient(150deg, #17ABD8, #2CB17A)
+	border-radius: 5px
+	padding: 42px 50px 42px 50px
+	position: relative
+	z-index: 1
+.footer__contact-form:before 
+	position: absolute
+	content: url('../img/Form-forground-dots.svg')
+	top: -50px
+	left: 50%
+	transform: translateX(-50%)
+	z-index: -1
+.footer-form-title
+	font-size: 24px 
+	font-weight: 700
+	margin-bottom: 24px
+.input-submit
+	width: 100% 
+	height: 64px
+	margin-top: 24px
+	border-radius: 3px 
+	background: #15264C
+	color: #fff
+	font-weight: 700
+	border: none
+	cursor: pointer
+
+.input 
+	width: 100%
+	height: 51px
+	margin-top: 8px
+	padding: 0 25px
+	font-size: 14px
+	outline: none
+	border: none
+	border-radius: 2px 
+	background: #fff
+.input::placeholder 
+	color: rgba(#687286, .7)
+.input:focus::placeholder 
+	color: transparent
+.input:focus
+	outline: none	
+//end footer style
+	
+@import "media"
+
+
+
+

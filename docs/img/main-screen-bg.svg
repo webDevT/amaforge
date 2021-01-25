@@ -1,0 +1,132 @@
+<svg id="background-waves-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1671.5" height="981.842" viewBox="0 0 1671.5 981.842">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.004" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#17abd8"/>
+      <stop offset="1" stop-color="#2cb17a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.004" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#15264c"/>
+      <stop offset="1" stop-color="#2f4e83"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.004" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2f4e83"/>
+      <stop offset="1" stop-color="#15264c"/>
+    </linearGradient>
+    <filter id="Green_small" x="798.5" y="151.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.439"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Blue_big" x="822.5" y="732.5" width="49" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-2"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Purple_big" x="1224.5" y="145.5" width="49" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-3"/>
+      <feFlood flood-color="#15264c"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Purple_small" x="1478.5" y="319.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-4"/>
+      <feFlood flood-color="#15264c"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Blue_small_blurred" x="1612.5" y="587.5" width="59" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-5"/>
+      <feFlood flood-color="#15264c"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Blue_small" x="679.5" y="251.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-6"/>
+      <feFlood flood-color="#404a8f" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Aqua_small" x="1456.5" y="487.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-7"/>
+      <feFlood flood-color="#15264c"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Green_small-2" x="413.5" y="797.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-8"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.439"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Purple_big-2" x="125.5" y="134.5" width="49" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-9"/>
+      <feFlood flood-color="#15264c"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Blue_small-2" x="66.5" y="582.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-10"/>
+      <feFlood flood-color="#404a8f" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Blue_small-3" x="1055.5" y="402.5" width="47" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-11"/>
+      <feFlood flood-color="#404a8f" flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="bg_wave" data-name="bg wave" d="M0,0S422,99,832,51s808-8,808-8V981.842H0Z" transform="translate(1641 981.842) rotate(180)" opacity="0.206" fill="url(#linear-gradient)"/>
+  <path id="wave_base" data-name="wave base" d="M0-13.442s430,34,831-18,809,0,809,0V-929.284H0Z" transform="translate(1 929.284)" fill="url(#linear-gradient-2)"/>
+  <path id="wave_2" data-name="wave 2" d="M1-13.442s430,34,831-18,809,0,809,0V-503.284s-363,309-783,161-858-140-858-140Z" transform="translate(0 929.284)" opacity="0.204" fill="url(#linear-gradient-3)"/>
+  <path id="wave_1" data-name="wave 1" d="M1-13.442s430,34,831-18,809,0,809,0V-743.284s-275,152-762-9-879,249-879,249Z" transform="translate(1 929.284)" opacity="0.151" fill="url(#linear-gradient-3)"/>
+  <g id="background_dots" data-name="background dots" transform="translate(84 140)">
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Green_small)">
+      <circle id="Green_small-3" data-name="Green small" cx="4" cy="4" r="4" transform="translate(813 157)" fill="#6eafa9" opacity="0.254"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Blue_big)">
+      <circle id="Blue_big-2" data-name="Blue big" cx="5" cy="5" r="5" transform="translate(837 738)" fill="#1babca"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Purple_big)">
+      <circle id="Purple_big-3" data-name="Purple big" cx="5" cy="5" r="5" transform="translate(1239 151)" fill="#727ed0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Purple_small)">
+      <circle id="Purple_small-2" data-name="Purple small" cx="4" cy="4" r="4" transform="translate(1495 333)" fill="#aaacd9" opacity="0.261"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Blue_small_blurred)">
+      <circle id="Blue_small_blurred-2" data-name="Blue small blurred" cx="4" cy="4" r="4" transform="translate(1633 599)" fill="#5bace4"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Blue_small)">
+      <circle id="Blue_small-4" data-name="Blue small" cx="4" cy="4" r="4" transform="translate(697 260)" fill="#61ace3"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Aqua_small)">
+      <circle id="Aqua_small-2" data-name="Aqua small" cx="4" cy="4" r="4" transform="translate(1471 493)" fill="#7fced0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Green_small-2)">
+      <circle id="Green_small-4" data-name="Green small" cx="4" cy="4" r="4" transform="translate(428 803)" fill="#6eafa9" opacity="0.254"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Purple_big-2)">
+      <circle id="Purple_big-4" data-name="Purple big" cx="5" cy="5" r="5" transform="translate(140 140)" fill="#727ed0" opacity="0.318"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Blue_small-2)">
+      <circle id="Blue_small-5" data-name="Blue small" cx="4" cy="4" r="4" transform="translate(84 591)" fill="#61ace3" opacity="0.152"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -84, -140)" filter="url(#Blue_small-3)">
+      <circle id="Blue_small-6" data-name="Blue small" cx="4" cy="4" r="4" transform="translate(1073 411)" fill="#61ace3" opacity="0.152"/>
+    </g>
+  </g>
+</svg>

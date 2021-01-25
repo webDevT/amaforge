@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140" viewBox="0 0 140 140">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="140" height="140" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#15264c" flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.004" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#17abd8"/>
+      <stop offset="1" stop-color="#2cb17a"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon" transform="translate(30 20)">
+    <g transform="matrix(1, 0, 0, 1, -30, -20)" filter="url(#Oval)">
+      <circle id="Oval-2" data-name="Oval" cx="40" cy="40" r="40" transform="translate(30 20)" fill="#fff"/>
+    </g>
+    <path id="Track_funding" data-name="Track funding" d="M16.5,33A16.5,16.5,0,0,1,4.834,4.835,16.5,16.5,0,1,1,28.165,28.165,16.391,16.391,0,0,1,16.5,33ZM11.369,20.906a1.237,1.237,0,0,0-1.018.559,1.472,1.472,0,0,0-.169,1.355,5.944,5.944,0,0,0,4.465,3.7v.99A2.094,2.094,0,0,0,16.618,29.7h.015a2.1,2.1,0,0,0,1.973-2.194v-.957a6.345,6.345,0,0,0,3.278-1.679,4.956,4.956,0,0,0,1.365-3.535c0-4.121-3.134-5.573-6.2-6.451-3.287-.941-3.96-1.94-3.96-3.152,0-1.644,1.4-2.706,3.56-2.706,1.714,0,2.772.694,3.145,2.063a1.237,1.237,0,0,0,1.142,1.022h.385a1.231,1.231,0,0,0,1-.529,1.49,1.49,0,0,0,.2-1.334,5.512,5.512,0,0,0-3.9-3.73V5.495a2.1,2.1,0,0,0-1.973-2.2h-.014a2.1,2.1,0,0,0-1.973,2.2v.99c-2.23.533-4.612,2.2-4.612,5.3a4.968,4.968,0,0,0,1.721,3.926,10.955,10.955,0,0,0,4.479,2.131c3.49.922,3.96,2.3,3.96,3.531,0,1.268-.935,2.624-3.559,2.624-1.959,0-3.246-.724-3.722-2.1a1.337,1.337,0,0,0-1.2-.99Z" transform="translate(23.827 24)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="266" height="249" viewBox="0 0 266 249">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_3" data-name="Path 3" d="M120-249a119.74,119.74,0,0,1,91.63,42.511A110.949,110.949,0,0,1,266-111,111,111,0,0,1,155,0a110.619,110.619,0,0,1-44.754-9.391A120.009,120.009,0,0,1,0-129,120,120,0,0,1,120-249Zm95.483,47.307.261.342a120.024,120.024,0,0,1,11.925,19.307C240.253-163.61,248-142.593,248-122c0,31.39-18,59.5-43.694,78.393A119.6,119.6,0,0,1,120-9q-1.835,0-3.658-.055A108.733,108.733,0,0,0,155-2,109,109,0,0,0,264-111,108.9,108.9,0,0,0,215.483-201.693Zm-23,165.814-1.042.6C173.246-24.976,152.479-19,132-19A116.162,116.162,0,0,1,80.4-31.522a109.2,109.2,0,0,0,30.342,20.163Q115.325-11,120-11A117.491,117.491,0,0,0,192.483-35.88ZM120-247A118,118,0,0,0,2-129,118.022,118.022,0,0,0,104.816-11.968,111.311,111.311,0,0,1,74.294-34.792C42.4-53.025,19-85.267,19-122c0-56.885,56.115-117,113-117,23.382,0,47.141,10.157,67.017,26.071q3.729,1.61,7.311,3.483A117.675,117.675,0,0,0,120-247Zm84.939,39.087,1.007.908a144.453,144.453,0,0,1,12.475,12.883,118.967,118.967,0,0,0-8.1-10.813Q207.677-206.5,204.939-207.913Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_2" data-name="Path 2" d="M-234,5493H1406V-2835H-234Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.01" x2="1.494" y2="1.384" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0ca8da"/>
+      <stop offset="0.1" stop-color="#11a9cc"/>
+      <stop offset="0.2" stop-color="#15abbe"/>
+      <stop offset="0.3" stop-color="#1aacb0"/>
+      <stop offset="0.4" stop-color="#1eada2"/>
+      <stop offset="0.5" stop-color="#23ae95"/>
+      <stop offset="0.6" stop-color="#28b087"/>
+      <stop offset="0.7" stop-color="#2cb179"/>
+      <stop offset="0.8" stop-color="#31b26b"/>
+      <stop offset="0.9" stop-color="#35b45d"/>
+      <stop offset="1" stop-color="#3ab54f"/>
+    </linearGradient>
+  </defs>
+  <g id="Badge" transform="translate(1.5 1.5)">
+    <g id="BG" transform="translate(-1.5 247.5)">
+      <g id="Group_3" data-name="Group 3" clip-path="url(#clip-path)">
+        <g id="Group_2" data-name="Group 2" clip-path="url(#clip-path-2)">
+          <g id="Group_1" data-name="Group 1" transform="translate(0 -249)">
+            <path id="Path_1" data-name="Path 1" d="M0,0H266V249H0Z" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="Quickly_align_fundin" data-name="Quickly align fundin" transform="translate(44 62)" fill="#fff" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="55.421" y="19">Quickly</tspan><tspan x="30.056" y="42.4">align funding </tspan><tspan x="29.155" y="65.8">opportunities</tspan><tspan x="26.184" y="89.2">with your best </tspan><tspan x="52.969" y="112.6">experts.</tspan></text>
+  </g>
+</svg>

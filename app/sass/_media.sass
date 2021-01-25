@@ -1,0 +1,388 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width :1300px)
+	/**/
+	.main-screen
+		height: 780px 
+		min-height: auto
+	.prev
+		left: 0
+		transform: translateX(-40%) translateY(-100%)
+	.next
+		right: 0
+		transform: translateX(40%) translateY(-100%)
+
+
+
+	
+	 
+		
+/* Large Devices, Wide Screens */
+@media only screen and (max-width :1100px)
+	/**/
+	.header
+		.menu ul
+			//display: none
+			li 
+				margin-left: 20px
+/* Large Devices, Wide Screens */
+@media only screen and (max-width :992px)
+	/**/
+	.header
+		.menu ul
+			//display: none
+			li 
+				margin-left: 20px
+	.menu__btn
+		cursor: pointer
+	.menu__btn-row
+		width: 21px 
+		height: 2px 
+		margin-bottom: 4px
+		background: #fff
+		transition: all 0.5s
+	.menu__btn-row:last-child
+		margin-bottom: 0
+	.header 
+		padding-top: 25px 
+		padding-bottom: 25px
+	.header.sticky 
+		.menu__btn-row
+			background: $title-color
+	.header
+		.menu 
+			ul 
+				flex-direction: column 
+				position: absolute 
+				background: #fff
+				width: 90vw
+				left: 10vw
+				top: 0
+				min-height: 100vh
+				padding-top: 90px
+				text-align: left
+				align-items: flex-start
+				padding-left: 60px
+				transform: translateX(150vw)
+				transition: all .5s
+				box-shadow: 0 10px 10px rgba(#000, 0.3)
+				li 
+					margin-left: 0
+					text-align: left
+					margin-bottom: 47px
+					a 
+						color: #687286
+				li:last-child 
+					a 
+						color: #fff
+		.menu.active
+			ul
+				transform: translateX(0)
+
+			.menu__btn-row
+				background: $title-color
+				z-index: 99
+				position: relative
+			.menu__btn .menu__btn-row:last-child 
+				display: none
+			.menu__btn .menu__btn-row:nth-child(2)
+				transform: rotate(45deg) 
+			.menu__btn .menu__btn-row:first-child
+				transform: rotate(-45deg)
+				margin-bottom: 0
+				position: relative 
+				top: 2px 
+	.how-it-work__items
+		.col-lg-4:nth-child(2),
+		.col-lg-4:nth-child(3)
+			justify-content: flex-start
+	.how-it-work__item
+		max-width: 100%
+	.how-it-work__items .col-lg-4:nth-child(2):before
+		width: 100% 
+		height: 1px
+
+	.how-it-work__items .col-lg-4:nth-child(2):after
+		width: 100% 
+		height: 1px
+		top: 100%
+	.how-it-work__items .col-lg-4
+		padding-top: 30px 
+		padding-bottom: 30px
+	.how-it-work .container-fluid
+		padding-left: 15px 
+		padding-right: 15px
+		max-width: 100% 
+		width: 100%
+		padding-bottom: 0px
+		padding-top: 38px
+	.how-it-work .container-fluid svg
+		margin-bottom: 0
+		width: 100% 
+		transform: translateX(0)
+	.more-proposual
+		.col-lg-6:first-child
+			display: flex 
+			justify-content: center
+			align-items: center
+
+		svg 
+			position: absolute
+			left: 0% 
+			top: 61%
+	.more-proposual__img-wrapper
+		margin-bottom: 65px
+	.how-it-work
+		padding-bottom: 75px
+	.more-proposual
+		h2 
+			text-align: left
+	.more-proposual
+		padding-bottom: 30px
+	.features
+		height: auto
+		padding-top: 220px
+		padding-bottom: 190px
+	.features
+		.col-lg-4:nth-child(1),
+		.col-lg-4:nth-child(2),
+		.col-lg-4:nth-child(3)
+			padding-bottom: 30px
+			border-bottom: none
+		.col-lg-4:nth-child(2)
+			border-left: none
+			border-right: none
+		.col-lg-4:nth-child(4),
+		.col-lg-4:nth-child(5),
+		.col-lg-4:nth-child(6)
+			padding-top: 0
+		.col-lg-4:nth-child(5)
+			border-left: none
+			border-right: none
+		.col-lg-4
+			padding-top: 30px 
+			padding-bottom: 30px
+			p 
+				max-width: 90%
+	.features .section-header
+		margin-bottom: 0
+	.footer 
+		margin-top: 130px
+		.container-fluid 
+			flex-direction: column
+	.footer__contact-form
+		order: 1
+		width: 100%
+		transform: translateY(-20%)
+	.footer__contact
+		order: 2
+	.footer__contact
+		padding-top: 0
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	.main-screen
+		height: auto 
+		min-height: auto
+	.main-screen__content
+		flex-direction: column
+		align-items: flex-start
+	.main-screen__content-wrapper
+		.container-fluid 
+			width: 100% 
+			max-width: 100%
+			padding-left: 0 
+			padding-right: 0
+
+	.main-screen__img
+		align-self: flex-end
+		width: 100%
+		overflow-x: hidden
+
+		img 
+			width: 145.600vw
+	.main-screen__img--deck
+		display: none
+	.main-screen__img .main-screen__img--mob
+		display: block
+		transform: translateX(0)
+	.main-screen__text-content
+		padding-left: 15px
+		padding-right: 15px
+		max-width: 96vw
+	.main-screen__content
+		padding-top: 133px
+	.main-screen
+		padding-bottom: 125px
+	.box-section
+		.container-fluid 
+			flex-direction: column
+			img 
+				max-width: 100%
+				margin-bottom: 30px
+	h2 
+		font-size: 24px
+		text-align: center
+		line-height: 31px
+	.box-content
+		padding-left: 0
+	.box-section
+		padding-bottom: 123px
+	.mobile-chart
+		display: flex
+		width: 100%
+	.desktop-chart
+		display: none
+	.how-it-work .container-fluid h2
+		margin-bottom: 0
+	.more-proposual
+		svg 
+			max-width: 53.333vw
+			top: 48%
+	.dascover__item-title
+		font-size: 18px
+	.discover p
+		margin-bottom: 30px
+	.discover .col-lg-6
+		margin-top: 60px
+	.discover
+		padding-top: 0
+		padding-bottom: 65px
+		h2
+			br 
+				display: none
+		.col-lg-6:nth-child(2)
+			order: 1
+		.col-lg-6:nth-child(1)
+			order: 2
+			margin-top: 30px
+		.col-lg-6:nth-child(3)
+			order: 3
+		.col-lg-6:nth-child(4)
+			order: 4
+			margin-top: 30px
+		.col-lg-6:nth-child(5)
+			order: 6
+			margin-top: 30px
+		.col-lg-6:nth-child(6)
+			order: 5
+	.slider__item-content
+		padding-left: 25px 
+		padding-right: 25px
+		margin: 25px 5px
+	.slider__item-content .slider-item__text
+		min-height: 160px	
+		margin-bottom: 10px
+	.container-fluid--slider
+		padding-left: 0
+		padding-right: 0
+		width: 100% 
+		max-width: 100%
+	.slider-section
+		h2
+			margin-bottom: 30px 
+			br 
+				display: none
+	.clients-slider__item-content
+		height: 80px
+		margin: 30px 10px
+	.our-clients
+		padding-bottom: 30px
+	.prev, 
+	.next 
+		display: none 
+	.footer__contact-form
+		padding: 32px 27px 32px 27px
+		min-height: 428px
+	.footer-form-title
+		margin-bottom: 5px
+	.footer__contact
+		flex-direction: column
+		.footer__col
+			margin-bottom: 33px
+	.footer__contact-item
+		margin-top: 30px
+	.footer__bottom
+		padding-bottom: 50px
+		margin-top: 34px
+		.footer__bottom-wrapper
+			flex-direction: column
+			align-items: flex-start
+	.footer__copy
+		margin-top: 26px
+	.footer__contact-form
+		overflow: hidden
+	.our-clients
+		padding-top: 0px
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
+
+
+
+
