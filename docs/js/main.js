@@ -12,6 +12,14 @@ $('.header').removeClass("sticky");
 });
 
 //-------end sticky header--------
+$(function(){
+$(elements).lazyLoadXT();
+
+
+
+});
+
+$.lazyLoadXT.onload.addClass = "animated fadeInUp";
 
 //-------start mobil menu----------
 
