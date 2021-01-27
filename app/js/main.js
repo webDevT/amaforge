@@ -26,7 +26,9 @@ $.lazyLoadXT.onload.addClass = "animated fadeInUp";
 $('.menu__btn').click(function(){
 		$('.menu').toggleClass('active');
 	})
-
+$('.menu a').click(function(){
+    $('.menu').toggleClass('active');
+  })
 //-------end mobil menu------------
 
 $('.slider').slick({
@@ -98,7 +100,7 @@ $('.clients-slider').slick({
  
 })
 
-jQuery("#menu").on("click","a", function (event) {
+jQuery(".scroll").on("click","a", function (event) {
         event.preventDefault();
         var id  = jQuery(this).attr('href'),
         top = jQuery(id).offset().top;
